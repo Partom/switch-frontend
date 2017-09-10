@@ -120,8 +120,10 @@ header{
 	font-size: 16pt;
 }
 header .btn-section{
-	padding-top: 15%;
-	padding-bottom: 20px;
+	padding-top: 0;
+	margin-bottom: 0px;
+	position: absolute;
+	bottom: 3%;
 }
 .btn-section .scroll-btn{
 	background: rgba(255,255,255,0.9);
