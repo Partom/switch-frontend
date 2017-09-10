@@ -50,29 +50,52 @@ header{
 .logo-section{
 	width: 20%;
 	text-align: center;
+	margin-top: 10px;
 }
 .logo-section .logo{
 	height: 40px;
 	width: 100px;
 }
 .search-section{
-	width : 40%;
+	width : auto;
 	text-align: right;
 	float: right;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .search-wrap{
 	display: inline-block;
-	padding: 4px 13px;
+	padding: 4px 8px;
 	background: rgba(255,255,255,0.9);
 	border-radius: 35px;
 
 }
+
 .search-wrap input{
 	background: transparent;
 	border: 0px;
 	height:	30px;
 	width: 200px;
+	
+}
+.menu-icon{
+	color: #54D154;
+	background: rgba(255,255,255,0.9);
+	padding: 4px 8px;
+	border-radius: 50%;
+	display: none;
+}
+.responsive .menu-section{
+	display: none;
+}
+.responsive .search-section{
+	margin-right: 5%;
+	margin-top: 20px;
+}
+.responsive .search-section input{
+	display: none;
+}
+.responsive .menu-icon{
+	display: inline-block;
 }
 .site-title-section{
 	width: 100%;
@@ -97,7 +120,8 @@ header{
 	font-size: 16pt;
 }
 header .btn-section{
-	margin-top: 34vh;
+	padding-top: 15%;
+	padding-bottom: 20px;
 }
 .btn-section .scroll-btn{
 	background: rgba(255,255,255,0.9);
@@ -154,7 +178,7 @@ header .btn-section{
 	padding: 25px 20px;
 	background: #e0f3e0;
 	border-radius: 30px;
-	color: 
+
 }
 .image-wrap img{
 
@@ -198,8 +222,11 @@ header .btn-section{
 .portfolio-section .heading-section span{
 	border-color: #207b20;
 }
+.portfolio-wrap {
+	text-align: center;
+}
 .item{
-	width: 19.5%;
+	width: auto;
 	display: inline-block;
 	margin: 0px;
 	padding: 10px;
@@ -207,9 +234,11 @@ header .btn-section{
 
 }
 .portfolio-section .item img{
-	width: 100%;
+	width: 170px;
 	border-radius: 10px;
+	height: 170px;
 }
+
 .btn-section{
 	width: 100%;
 	text-align: center;
@@ -235,16 +264,22 @@ header .btn-section{
 	height: 70px;
 
 }
+.client img{
+	vertical-align: middle;
+}
 .clients-section .btn-section .view-btn{
 	background: #dddcdc;
 	color: #828181;
 }
+.team-wrap{
+	text-align: center;
+}
 .team-member{
-	width: 19.5%;
+	width: auto;
 	display: inline-block;
 	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 20px 3% 10px 3%;
+
 }
 .team-member .avatar img{
 	width: 120px;
@@ -421,11 +456,12 @@ footer .middle-section .heading-section span{
 
 
 footer .middle-section .news-row{
-	margin-top: 30px;
+	margin-top: 10px;
 }
 footer .middle-section img{
 	max-width: 100%;
 	height: 45px;
+	margin-top: 20px;
 }
 
 footer .third-section{
