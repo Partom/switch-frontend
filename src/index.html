@@ -12,9 +12,9 @@
 </head>
 <body>
 <header>
-	<div class="navbar2 responsive">
+	<div class="navbar2" id = "main-navbar">
 		<div class="container-fluid">
-			<div class="menu-section">
+			<div class="menu-section" >
 				<ul class="menu">
 					<li><a>Home</a></li>
 					<li><a>What we do?</a></li>
@@ -34,10 +34,18 @@
 
 				</div>
 				<div class="menu-icon">
-					<i class="fa fa-bars	"></i>
+					<i class="fa fa-bars" onclick="mobilenav()"></i>
+
 				</div>
 			</div>
-
+			<div class="navbar-dropdown" id="navbar-menu">
+				<ul>
+					<li><a>Home</a></li>
+					<li><a>What we do?</a></li>
+					<li><a>Testimonials</a></li>
+					<li><a>ContactUs</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div class="site-title-section">
@@ -485,5 +493,11 @@
 	</div>
 </footer>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

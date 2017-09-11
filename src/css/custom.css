@@ -84,8 +84,47 @@ header{
 	border-radius: 50%;
 	display: none;
 }
+.navbar-dropdown{
+	display: none;
+	position: absolute;
+	background: rgba(255,255,255,0.9);
+	right: 10px;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 15px;
+	width: 220px;
+}
+.navbar-dropdown ul{
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+.navbar-dropdown li{
+	display: block;
+	padding: 0 10px;
+	margin-top: 0px;
+}
+.navbar-dropdown li a{
+	text-decoration: none;
+	color: #54D154;
+
+	font-size: 14pt;
+	padding: 10px 0px;
+	border-top: 3px solid transparent;
+}
+.navbar-dropdown li a:hover{
+	border-top: 3px solid #54D154;
+}
+.mobile-navbar{
+	display: block;
+}
 .responsive .menu-section{
 	display: none;
+}
+.mobile-navbar {
+	display: block;
+}
+.mobile-navbar ul li a{
+	display: block;
 }
 .responsive .search-section{
 	margin-right: 5%;
